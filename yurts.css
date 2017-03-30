@@ -1,12 +1,51 @@
+header{
+    background-color: #000033; color: #FF9;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 60px; padding-top: 15px;
+    padding-left: 2em;
+    text-shadow: 1px 1px 1px #FFF;
+    text-align: center
+}
+   
 body{
-    background-color: #FFFFFF;
+    font-family: sans-serif;
     color:#191970;
+    background-color: #90C7E3;
+    background-image: repeating-linear-gradient(to bottom, #ffffff, #90c7e3);
+    background-repeat: no-repeat;
+}
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #ffffff;
+    min-width: 960px; max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+main{
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#yurthero{
+    background-image: url(images/yurthero.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 h1{
-    background-color:#000033;
+    background-image:url(images/sunset.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    text-indent: 1em;
+    text-align: center;
+    text-shadow: 1px 1px 1px #cccccc;
     color:#E6E6FA;
-    margin-bottom:0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 h2{
@@ -16,8 +55,25 @@ h2{
 h3{
     color:#000033;
 }
-
+h1,h2,h3{
+    font-family: Georgia, "Times New Roman",Serif;
+}
 nav{
-    background-color:#90C7E3;
+    background-color:#ffffff;
     color:#000033;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    font-size:75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman",Serif;
 }
